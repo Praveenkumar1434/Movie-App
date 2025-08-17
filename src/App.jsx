@@ -24,7 +24,7 @@ function App() {
           <Route path="/home" element={<Home />} />
           <Route path="/watchlist" element={<WatchList />} />
 
-          {/* <Route path="*" element={<Navigate to="/home" />} /> */}
+          <Route path="*" element={<Navigate to="/home" />} />
         </Routes>
       </BrowserRouter>
     </WatchListProvider>
